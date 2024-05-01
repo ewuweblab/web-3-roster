@@ -19,7 +19,14 @@ fetch( dataSource )
       const template =`
       <div class="swiper-slide">
         
-         <h1>${student.Emoji} ${student.Name}</h1>
+         <img src="${student.Image}" />
+         <h1 style=" color: ${student.Color} ">${student.Emoji} 
+          
+         ${student.Name}
+         </h1>
+
+         <p>${student.Quote}</p>
+      
 
         </div>
       `

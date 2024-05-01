@@ -9,12 +9,14 @@ var swiper = new Swiper(".mySwiper", {
    
     // pagination  
    pagination: {
-       el: ".swiper-pagination"
+       el: ".swiper-pagination", 
+       clickable: true,
    },
   
    //  autoplay
    autoplay: {
-       delay: 1000
+       delay: 1000,
+       disableOnInteraction: false,
    }, 
 
    //  loop
